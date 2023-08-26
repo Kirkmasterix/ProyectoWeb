@@ -1,0 +1,44 @@
+img {
+    width: 20%;
+    height: 25%;
+    display: inline;
+    margin: auto;
+    position: page;
+    padding: 10px;
+    transition: all;
+    filter: brightness(0);
+    transition: transform 0.3s ease;
+}
+ img:active {
+     transform: rotate(360deg);
+ }
+
+p {
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+div{
+    width: 1200px;
+    height: 500px;
+}
+
+.boton {
+    width: 150px;
+    height: 30px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #cc33ff;
+    opacity: 0.4;
+    color: white;
+}
+
+
+h1{
+    color:white;
+}
+
+body {
+    background-image: url("fondo.jpg");
+}
+
